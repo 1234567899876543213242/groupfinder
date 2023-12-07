@@ -19,7 +19,7 @@ def esexpls(url, data):
         return None
 
 def send_to_free_finder(name, id, members):
-  webhook = "https://discord.com/api/webhooks/1157775859063717988/sCFFOQFaoknRBP9CI2L7uHHxSmyLKMZus4PteE20rnFlx6XIcJjSsBhSnu0Z0XgQQjAH"
+  webhook = "webhook for free finder"
   data = {"content": "<@&1176620644994125924>"}
   data["embeds"] = [
     {
@@ -39,7 +39,7 @@ def send_to_free_finder(name, id, members):
   return esexpls(webhook, data)
 
 def send_to_level_5(name, id, members, robux):
-  webhook = "https://discord.com/api/webhooks/1157775859063717988/sCFFOQFaoknRBP9CI2L7uHHxSmyLKMZus4PteE20rnFlx6XIcJjSsBhSnu0Z0XgQQjAH"
+  webhook = "webhook for bonus"
   data = {"content": "<@&1176619493590569001>"}
   data["embeds"] = [
     {
@@ -59,7 +59,7 @@ def send_to_level_5(name, id, members, robux):
   return esexpls(webhook, data)
 
 def send_to_premium_finder(name, id, members, robx, clothin, gams, gamevisi):
-  webhook = "https://discord.com/api/webhooks/1157775859063717988/sCFFOQFaoknRBP9CI2L7uHHxSmyLKMZus4PteE20rnFlx6XIcJjSsBhSnu0Z0XgQQjAH"
+  webhook = "premium finder webhook"
   data = {"content": "<@&1172869928261525584>"}
   data["embeds"] = [
     {
